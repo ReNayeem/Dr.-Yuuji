@@ -1,0 +1,14 @@
+.site-name {
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.site-name:hover {
+    color: rgb(206, 206, 206);
+}
+
+.nav {
+    background-color: rgb(194, 144, 144);
+}
