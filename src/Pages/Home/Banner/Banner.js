@@ -21,8 +21,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>"Stay alert not anxious," In a recent video addressing #coronavirus misinformation. When trusted public figures like Dr. Yuuji communicate the most accurate and up-to-date information, it helps build confidence and dissipate panic."</h3>
-                    <p>- Johns Hopkins</p>
+                    <h3 className='banner-detail'>"Stay alert not anxious," In a recent video addressing #coronavirus misinformation. When trusted public figures like Dr. Yuuji communicate the most accurate and up-to-date information, it helps build confidence and dissipate panic."</h3>
+                    <p className='banner-detail'>- Johns Hopkins</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>"This conversation with Dr. Fauci addresses important questions - thanks, Yuuji for helping the @YouTube community understand more about #COVID19"</h3>
-                    <p>- Susan Wojcicki, CEO YouTube</p>
+                    <h3 className='banner-detail'>"This conversation with Dr. Fauci addresses important questions - thanks, Yuuji for helping the @YouTube community understand more about #COVID19"</h3>
+                    <p className='banner-detail'>- Susan Wojcicki, CEO YouTube</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,8 +45,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Thank you, Patients for spreading our #TakeCareBeforeYouShare message and for helping people navigate the #COVID19 infodemic with your medical perspective on how misinformation is putting lives at risk.</h3>
-                    <p>- Melissa Fleming, Global Communications, United Nations</p>
+                    <h3 className='banner-detail'>Thank you, Patients for spreading our #TakeCareBeforeYouShare message and for helping people navigate the #COVID19 infodemic with your medical perspective on how misinformation is putting lives at risk.</h3>
+                    <p className='banner-detail'>- Melissa Fleming, Global Communications, United Nations</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

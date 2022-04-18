@@ -1,25 +1,41 @@
 .service {
-    border: 1px solid rgb(214, 212, 212);
+    border: 1px solid cadetblue;
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.service-title {
+    font-weight: 600;
+    margin-top: 2%;
+    color: rgb(84, 157, 170);
+    text-shadow: 1px 1px 10px rgba(95, 158, 160, 0.39);
 }
 
 .service-image {
     border-radius: 10px 10px 0px 0px;
 }
 
+.service-description {
+    color: rgb(129, 129, 129);
+}
+
+.service-price {
+    color: rgb(60, 95, 95);
+}
+
 .service-button {
-    color: rgba(65, 105, 225, 0.87);
+    color: cadetblue;
     background-color: transparent;
-    border: 1px solid rgba(65, 105, 225, 0.87);
+    border: 1px solid cadetblue;
     border-radius: 4px;
     padding: 5px;
+    font-weight: bold;
     font-size: .8rem;
 }
 
 .service-button:hover {
     color: white;
-    background-color: royalblue;
-    border: 1px solid royalblue;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
 }

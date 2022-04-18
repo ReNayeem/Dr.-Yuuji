@@ -1,0 +1,12 @@
+.about-page {
+    height: calc(100vh - 319px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 688px) {
+    .about-page {
+        height: calc(100vh - 302.2px);
+    }
+}

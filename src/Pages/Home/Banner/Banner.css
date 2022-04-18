@@ -1,9 +1,14 @@
+.banner-detail {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+}
+
 @media only screen and (max-width: 667px) {
     .carousel-design h3 {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .carousel-design p {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }

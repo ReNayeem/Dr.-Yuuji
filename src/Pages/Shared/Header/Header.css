@@ -2,14 +2,16 @@
     color: whitesmoke;
     font-size: 2rem;
     cursor: pointer;
+    font-weight: bold;
+    letter-spacing: .3ch;
 }
 
 .site-name:hover {
-    color: rgb(206, 206, 206);
+    color: white;
 }
 
 .nav {
-    background-color: rgb(21, 107, 189);
+    background-color: rgba(44, 133, 136, 0.726);
 }
 
 @media only screen and (max-width: 667px) {
