@@ -4,7 +4,7 @@ import './Checkout.css'
 const Checkout = () => {
     return (
         <div className='checkout-page'>
-            <h2>Thank you for booking.</h2>
+            <h2 className='h2-404'>Thank you for booking.</h2>
         </div>
     );
 };

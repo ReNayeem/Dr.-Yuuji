@@ -4,6 +4,7 @@ import './Blogs.css'
 const Blogs = () => {
     return (
         <div id="question-answer" className="text-center blogs-page container">
+            <h1 className='text-primary my-5 fw-bold'>Blogs</h1>
             <h4 className='mb-3'>Difference between Authorization and Authentication</h4>
             <center>
                 <table>
@@ -29,7 +30,7 @@ const Blogs = () => {
             <hr />
             <h4 className='mb-3'>Why are you using firebase? What other options do you have to implement authentication?</h4>
             <p>Google Firebase offers many features that present it as a back-end development tool for web and mobile applications. This reduces stress and development work time. And it is a perfect prototyping tool. Firebase is simple, lightweight, friendly, and industry-recognized. That's why I use Google FIrebase.</p>
-            <p>The other options I have to implement authentication are Phone, Anonymous, Game Center, Microsoft, Facebook, Apple, Twitter, Play Games, and Yahoo.</p>
+            <p>The other options I have to implement authentication are AWS Amplify, Kuzzle, Couchbase, NativeScript, RxDB, Flutter.</p>
             <hr />
             <h4 className='mb-3'>What other services does firebase provide other than authentication</h4>
             <center>
