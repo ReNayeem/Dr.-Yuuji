@@ -1,12 +1,28 @@
 .blogs-page {
-    height: calc(100vh - 319px);
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    height: calc(100vh + 0vh);
+}
+
+#question-answer {
+    margin-top: 7rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black !important;
+    text-align: left;
+    padding: 8px;
 }
 
 @media only screen and (max-width: 688px) {
     .blogs-page {
-        height: calc(100vh - 302.2px);
+        height: calc(100vh + 900px);
+    }
+
+    tr {
+        font-size: 14px;
     }
 }
