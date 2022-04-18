@@ -1,6 +1,25 @@
-.service{
-    border: 1px solid lightgray;
+.service {
+    border: 1px solid rgb(214, 212, 212);
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.service-image {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.service-button {
+    color: rgba(65, 105, 225, 0.87);
+    background-color: transparent;
+    border: 1px solid rgba(65, 105, 225, 0.87);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.service-button:hover {
+    color: white;
+    background-color: royalblue;
+    border: 1px solid royalblue;
 }

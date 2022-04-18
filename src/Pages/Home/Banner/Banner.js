@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+import './Banner.css'
 
 import banner1 from '../../../images/banner/banner1.jpg';
 import banner2 from '../../../images/banner/banner2.jpg';
@@ -8,11 +9,11 @@ import banner3 from '../../../images/banner/banner3.jpg';
 const Banner = () => {
     const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel className='carousel-design' activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
@@ -20,8 +21,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>"Stay alert not anxious," In a recent video addressing #coronavirus misinformation. When trusted public figures like Dr. Yuuji communicate the most accurate and up-to-date information, it helps build confidence and dissipate panic."</h3>
+                    <p>- Johns Hopkins</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>"This conversation with Dr. Fauci addresses important questions - thanks, Yuuji for helping the @YouTube community understand more about #COVID19"</h3>
+                    <p>- Susan Wojcicki, CEO YouTube</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -44,10 +45,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3>Thank you, Patients for spreading our #TakeCareBeforeYouShare message and for helping people navigate the #COVID19 infodemic with your medical perspective on how misinformation is putting lives at risk.</h3>
+                    <p>- Melissa Fleming, Global Communications, United Nations</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

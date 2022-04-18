@@ -1,7 +1,6 @@
 .site-name {
     color: whitesmoke;
     font-size: 2rem;
-    padding: .5rem;
     cursor: pointer;
 }
 
@@ -10,5 +9,11 @@
 }
 
 .nav {
-    background-color: rgb(194, 144, 144);
+    background-color: rgb(21, 107, 189);
+}
+
+@media only screen and (max-width: 667px) {
+    .site-name {
+        font-size: 1.3rem;
+    }
 }
