@@ -1,16 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({ service }) => {
     const { id, name, img, description, price } = service;
-    const { serviceId } = useParams();
-    const navigate = useNavigate();
-
-    const navigateToServiceDetail = id => {
-        navigate(`/service/${id}`);
-    }
     return (
         <div className='service'>
             <img className='img-fluid service-image' src={img} alt="" />
